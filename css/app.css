@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+header{
+    height: 15vh;
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    background-color: rgb(87, 175, 247);
+    position: relative;
+}
+
+header img{
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+}
