@@ -1,7 +1,11 @@
 *{
-    margin: 0;
+    
     box-sizing: border-box;
-    padding: 0;
+    
+}
+
+body{
+    font-size: 20px;
 }
 
 header{
@@ -15,5 +19,48 @@ header{
 header img{
     height: 50px;
     position: absolute;
-    bottom: 0;
+    bottom: 10px;
+    left: 5px;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.autore, .data{
+    color: rgb(104, 104, 104);
+}
+
+.autore{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+.page-name{
+    color: rgb(87, 175, 247);
+}
+
+figure{
+    margin-left: 0;
+}
+
+figcaption , .data{
+    font-size: 16px;
+}
+
+ul{
+    
+}
+
+thead{
+    background-color:  rgb(87, 175, 247);
+    color: #ffffff;
+    text-align: left;
+}
+
+.odd{
+    background-color:  rgb(191, 221, 245);;
 }
