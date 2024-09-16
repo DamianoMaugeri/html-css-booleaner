@@ -28,7 +28,7 @@ h1{
     font-size: 45px;
 }
 
-.autore, .data{
+.autore, .data, .video-correlati{
     color: rgb(104, 104, 104);
 }
 
@@ -63,4 +63,28 @@ thead{
 
 .odd{
     background-color:  rgb(191, 221, 245);;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: bold;
+}.
+
+.player{
+    float: left;
+}
+
+.immagine{
+    position: relative;
+}
+
+.titolo{
+    position: absolute;
+    left: 10px;
+    top: 5%;
+    color: white;
+    padding: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    
 }
