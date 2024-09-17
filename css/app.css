@@ -11,7 +11,7 @@ body{
 header{
     height: 15vh;
     background-image: url(../img/pattern.png);
-    background-size: contain;
+    background-size: auto 200px;
     background-color: rgb(87, 175, 247);
     position: relative;
 }
@@ -55,11 +55,24 @@ ul{
  padding: 0;
  margin-left: 20px;
 }
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.w-25{
+    width: 25%;
+}
+
+.w-50{
+   width: 50%;
+}
 
 thead{
     background-color:  rgb(87, 175, 247);
     color: #ffffff;
     text-align: left;
+    white-space: nowrap;
 }
 
 .odd{
@@ -88,4 +101,8 @@ h2{
     font-size: 30px;
     font-weight: bold;
     
+}
+
+main, footer{
+    padding-left: 10px;
 }
